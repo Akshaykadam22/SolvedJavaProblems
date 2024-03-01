@@ -1,0 +1,35 @@
+import java.io.*;
+class mini{
+           public static void main(String[] args)throws IOException{
+	   BufferedReader br= new BufferedReader(new InputStreamReader(System.in));
+	   System.out.println("Enter 1.for square");
+           System.out.prinln("enter 2.for circle");
+           int a=Integer.parseInt(br.readLine());
+	   switch(a){
+                     case 1:{
+			   int   x=1089;
+			   System.out.println("enter length: ");
+			   System.out.println("enter width: ");
+			   int b =Interger.parseInt(br.readLine());
+			   int c= Integer.parseInt(br.readLine());
+
+			   if(0>b &&0>c){
+			        int d=b*c;
+			        int e=d/x;
+				System.out.println("Area is : "+e );
+			    }else{
+			       System.out.println("please enter vaid length an width");
+		             }
+	                    System.out.println("enter the amount you decided with your customer"); 
+	                    int f=Integer.parseInt(br.readLine());
+			    int g=e*f;
+			    System.out.println("your amount is  : " + g+"rs");
+                            }
+                          break;
+		}
+}
+}
+			    
+                            	   
+	     
+
